@@ -6,7 +6,7 @@ function solution1(A, B, C) {
 }
 
 function solution2(A, B){
-    var max = A;
+    var max = 0; /*A^A===0*/
     for (var i = A; i <= B; i++){
         for (var j = i; j <= B; j++){
             if ((i ^ j) > max){
